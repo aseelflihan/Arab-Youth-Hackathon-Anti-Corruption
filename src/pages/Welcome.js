@@ -4,7 +4,7 @@ import UploadFileIcon from '@mui/icons-material/UploadFile';
 import HomeIcon from '@mui/icons-material/Home';
 import CheckCircleIcon from '@mui/icons-material/CheckCircle';
 import CancelIcon from '@mui/icons-material/Cancel';
-import mockDatabase from './mockDatabase';
+import mockDatabase from '../data/mockDatabase';
 
 function Welcome() {
     const [fileUploading, setFileUploading] = useState(false);
